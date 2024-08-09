@@ -1,0 +1,20 @@
+Introducción a React
+
+Fecha de inicio: 24/07/2024
+Fecha de cierre: 27/07/2024
+
+Proyectos
+- Courseinfo
+- Unicafe
+
+Recursos
+- [Libro] Eloquent JavaScript
+https://eloquentjavascript.net/
+- [Guía] El Tutorial de JavaScript Moderno
+https://es.javascript.info/
+- [Curso] The Beginner's Guide to React
+https://egghead.io/courses/the-beginner-s-guide-to-react
+- [Revista] Visual Studio Magazine
+https://visualstudiomagazine.com/Home.aspx
+- [Artículo] Alucinación (inteligencia artificial)
+https://es.wikipedia.org/wiki/Alucinaci%C3%B3n_(inteligencia_artificial)

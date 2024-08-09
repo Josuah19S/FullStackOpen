@@ -1,0 +1,7 @@
+The Beginner's Guide to React
+Instructor: Kent C. Dodds
+https://egghead.io/courses/the-beginner-s-guide-to-react
+
+Inicio: 29/07/2024
+
+Repositorio: https://github.com/kentcdodds/beginners-guide-to-react
