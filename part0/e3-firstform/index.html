@@ -1,0 +1,38 @@
+<!--
+    Formulario con tres campos de texto y un botón
+    Texto Input
+    Texto Input
+    Texto Input
+    Botón de envío
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title> Mi primer formulario </title>
+        <link href="./styles.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <p> Formulario </p>
+        <form action="/my-handling-form-page" method="post">
+            <ul>
+                <li>
+                    <label for="name"> Nombre: </label>
+                    <input type="text" id="name" name="user_name"/>
+                </li>
+                <li>
+                    <label for="mail"> Correo electrónico: </label>
+                    <input type="email" id="mail" name="user_mail"/>
+                </li>
+                <li>
+                    <label for="msg"> Mensaje: </label>
+                    <textarea id="msg" name="user_message"></textarea>
+                </li>
+                <li class="button">
+                    <button type="submit"> Envíe su mensaje </button>
+                </li>
+            </ul>
+        </form>
+    </body>
+</html>
