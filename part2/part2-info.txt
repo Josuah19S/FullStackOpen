@@ -1,0 +1,45 @@
+Parte 2
+Comunicándose con el servidor
+
+Fecha de inicio: 27/07/2024
+
+
+Comandos
+Para ejecutar "npm run server" y "npm run dev" en simultáneo.
+// En la consola
+npm install axios
+npm install json-server --save-dev
+npm install concurrently --save-dev
+npm run start
+// En package.json
+{
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "server": "json-server -p 3001 --watch db.json",
+    "start": "concurrently \"npm run dev\" \"npm run server\""
+  }
+}
+
+
+Recursos
+- [Artículo] Snippets in Visual Studio Code
+https://code.visualstudio.com/docs/editor/userdefinedsnippets#_creating-your-own-snippets
+- [Serie] Functional programming in JavaScript
+https://www.youtube.com/playlist?list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84
+- [Artículo] Responder a eventos
+https://es.react.dev/learn/responding-to-events
+- [Artículo] Modelo de concurrencia y loop de eventos
+https://developer.mozilla.org/es/docs/Web/JavaScript/Event_loop
+- [Video] Philip Roberts: ¿Que diablos es el "event loop" (bucle de eventos) de todos modos? | JSConf EU
+https://www.youtube.com/watch?v=8aGhZQkoFbQ
+- [Artículo] Usar promesas
+https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Using_promises
+- [Artículo] Object copying
+https://en.wikipedia.org/wiki/Object_copying
+- [Artículo] Encadenamiento de promesas
+https://es.javascript.info/promise-chaining
+- [Artículo] Selectores CSS
+https://developer.mozilla.org/es/docs/Web/CSS/CSS_selectors
