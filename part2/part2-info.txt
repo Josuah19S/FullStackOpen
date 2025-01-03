@@ -2,6 +2,7 @@ Parte 2
 Comunicándose con el servidor
 
 Fecha de inicio: 27/07/2024
+Fecha de cierre: 09/08/2024
 
 
 Comandos

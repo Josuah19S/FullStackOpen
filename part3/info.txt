@@ -1,0 +1,33 @@
+Parte 3
+Programando un servidor con NodeJS y Express
+
+Inicio: 01/01/2025
+Cierre: 
+
+
+Comandos
+npm init // Inicializar package.json
+node index.js // Ejecutar archivo JS
+npm install express // Instalar Express
+npm install --save-dev nodemon // Instalar Nodemon como dependencia de desarrollo
+Ctrl + C // Apagar servidor en la consola
+
+Herramientas
+- Uso de Postman para probar la API
+- Uso de REST Client de VS Code para las request
+
+Recursos
+- [Artículo] Understanding the npm dependency model
+https://lexi-lambda.github.io/blog/2016/08/24/understanding-the-npm-dependency-model/
+- [Artículo] About semantic versioning
+https://docs.npmjs.com/about-semantic-versioning
+- [Artículo] Richardson Maturity Model
+https://martinfowler.com/articles/richardsonMaturityModel.html
+- [Libro] RESTful Web Services
+https://www.oreilly.com/library/view/restful-web-services/9780596529260/
+- [Artículo] Resource-oriented architecture
+https://en.wikipedia.org/wiki/Resource-oriented_architecture
+- [Herramienta] curl
+https://curl.se/
+- [Artículo] Sintaxis Spread
+https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Operators/Spread_syntax
