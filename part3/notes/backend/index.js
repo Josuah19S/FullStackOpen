@@ -24,6 +24,8 @@ let notes = [
 
 app.use(express.json())
 app.use(cors())
+app.use(express.static('dist'))
+
 
 const requestLogger = (request, response, next) => {
   console.log('Method:', request.method)
@@ -40,7 +42,8 @@ const unknownEndpoint = (request, response) => {
 }
 
 app.get('/', (request, response) => {
-  response.send('<h1>Hello, World!</h1>')
+  // response.send('<h1>Notes App!</h1>')
+  response.sendFile('/dist/index.html')
 })
 
 app.get('/api/notes', (request, response) => {
