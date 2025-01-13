@@ -31,3 +31,5 @@ https://en.wikipedia.org/wiki/Resource-oriented_architecture
 https://curl.se/
 - [Artículo] Sintaxis Spread
 https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Operators/Spread_syntax
+- [Artículo] Deployment Pipeline
+https://martinfowler.com/bliki/DeploymentPipeline.html

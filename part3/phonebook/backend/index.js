@@ -27,6 +27,7 @@ let persons = [
 ]
 
 app.use(express.json())
+app.use(express.static('dist'))
 
 morgan.token('body', request => {
   return JSON.stringify(request.body)
@@ -35,7 +36,8 @@ morgan.token('body', request => {
 app.use(morgan(':method :url :status :res[content-length] - :response-time ms :body'))
 
 app.get('/', (request, response) => {
-  response.send('<h1>Phonebook backend</h1>')
+  // response.send('<h1>Phonebook backend</h1>')
+  response.sendFile('/dist/index.html')
 })
 
 
@@ -100,7 +102,7 @@ app.delete('/api/persons/:id', (request, response) => {
   response.status(204).end() // Contenido no encontrado
 })
 
-const PORT = 3001
+const PORT = process.env.PORT || 3001
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`)
 })
