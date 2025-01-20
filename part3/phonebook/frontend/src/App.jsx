@@ -79,6 +79,11 @@ const App = () => {
           }, 5000)
         })
         .catch(error => {
+          setTypeMessage(false)
+          setNewMessage(`${error.response.data.error}`)
+          setTimeout(() => {
+            setNewMessage(null)
+          }, 5000)
           console.error(`Error al establecer un nuevo contacto: ${error}`)
         })
     }

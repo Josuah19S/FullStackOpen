@@ -33,3 +33,13 @@ https://curl.se/
 https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Operators/Spread_syntax
 - [Artículo] Deployment Pipeline
 https://martinfowler.com/bliki/DeploymentPipeline.html
+- [Artículo] Debugging
+https://code.visualstudio.com/docs/editor/debugging
+- [Artículo] Jidoka: qué es y ejemplos
+https://blog.toyota-forklifts.es/jidoka-que-es
+- [Librería] Mongoose
+https://mongoosejs.com/index.html
+- [Herramienta] Sentry
+https://sentry.io/welcome/
+- [Herramienta] ESlint
+https://eslint.org/
